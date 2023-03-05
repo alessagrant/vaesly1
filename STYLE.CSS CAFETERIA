@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/42/9a/3a/429a3a8bba1d9b6012082b61b8c6e9d0.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 105% 105%;
+    color: rgb(7, 7, 6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color:#ad9e9e;
+}
+th{
+    background-color: #fefeff;
+}
+table{
+    margin-left: 100px;
+}
+img{
+    margin:150px 150px 150px;
+}
+titulo1{
+    font-family: 'PROJECT SPACE', sans-serif;
+    font-size: 30px;
+    color: #c42b2b;
+    text-align: center;
+}
