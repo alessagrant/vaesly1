@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Valeria</title>
+</head>
+
+<body>
+    <div class="calc">
+        <input type="text" id="ans">
+            <div class="btn">
+                <input type="button" value='C' onclick="Clear('')">
+                <input type="button" value='%' onclick="solver('%')">
+                <input type="button" value='←' onclick="solver('←')">
+                <input type="button" value='/' onclick="solver('/')">
+                <br>
+                <input type="button" value='7' onclick="solver('7')">
+                <input type="button" value='8' onclick="solver('8')">
+                <input type="button" value='9' onclick="solover('9')">
+                <input type="button" value='x' onclick="solver('x')">
+                <br>
+                <input type="button" value='4' onclick="solver('4')">
+                <input type="button" value='5' onclick="solver('5')">
+                <input type="button" value='6' onclick="Solve('6')">
+                <input type="button" value='=' onclick="Result('=')">
+                <br>
+                <input type="button" value='1' onclick="Solve('1')">
+                <input type="button" value='2' onclick="Solve('2')">
+                <input type="button" value='3' onclick="Solve('3')">
+                <input type="button" value='+' onclick="Solve('+')">
+                <br>
+                <input type="button" value='00' onclick="Solve('00')">
+                <input type="button" value='0' onclick="Solve('0')">
+                <input type="button" value='.' onclick="Solve('.')">
+                <input type="button" value='=' onclick="Result()">
+                <br>
+            </div>
+            <script>
+                    const Solve = val =>{
+                        var v=document.getElementById('ans');
+                        v.value+=val;
+                    }
+                    function Result(){
+                        var v1=document.getElementById('ans').value;
+                        var v2=eval(v1);
+                        document.getElementById('ans').value=v2;
+                    }
+                </script>
+                </body>
+                </html>
