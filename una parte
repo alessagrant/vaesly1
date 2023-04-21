@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <title>Fisica</title<!DOCTYPE html>
+            </head>
+            <body>
+                <nav class="navbar navbar-light" style="background-color: aquamarine;"></nav>
+
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4" style="color: rgb(62, 63, 128);">Fisica 1</h1>
+                        <p class="lead">Los elementos  que se consideran necesarios para facilitar el aprendizaje</p>
+                         <form id="formulario">
+                            <label for="distancia">Distancia:</label>
+                            <input type="text" id="distancia" name="distancia">
+                            <select id="distanciaUnidad">
+                                <option value="metros">metros</option>
+                                <option value="pies">pies</option>
+                            </select>
+                            <br>
+                            <label for="velocidadUnidad">Unidades de velocidad:</label>
+                            <select id="velocidadUnidad">
+                                <option value="metros_por_segundo">m/s</option>
+                                <option value="pies_por_segundo">ft/s</option>
+                                <option value="kilometros_por_hora">km/hr</option>
+                                <option value="millas_por_hora">mph</option>
+                            </select>
+                            <br>
+                            <br>
+                            <button type="button" value="Calcular" onclick="Calcular()" class="btn btn-sucess">Calcular>
+                                
+
+
+
+
+
+
+
+
+
+
