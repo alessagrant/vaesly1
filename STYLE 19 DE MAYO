@@ -1,0 +1,25 @@
+body{
+    background-color: lightsteelblue;
+}
+header{
+    background-color:#F2B880 ;
+    padding: 25px;
+}
+nav{
+    background-color: #E9D3C2;
+    padding: 10px;
+}
+section{
+    background-color: #6B818C;
+}
+article{
+    background-color: #35605A;
+}
+aside{
+    background-color: #899E8B;
+    width: 30%;
+    float: right;
+}
+footer{
+    background-color: #78CDD7;
+}
